@@ -11,3 +11,5 @@ services:
     environment:
       TLS: ${TLS:-0}
       HOSTNAME: ${HOSTNAME}
+      GIN_MODE: release
+
